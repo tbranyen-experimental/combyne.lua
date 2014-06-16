@@ -3,6 +3,6 @@ install:
 	moonbox install
 
 test:
-	@@busted test/**/*.lua
+	@@busted -c test/**/*.lua
 
 .PHONY: test
