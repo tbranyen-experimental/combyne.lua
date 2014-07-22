@@ -2,20 +2,18 @@ local combyne = require("index")
 
 describe "The exported Combyne module" (function()
 
-  it "is a function" (function()
-    assert(type(combyne) == "function")
+  it "is a table" (function()
+    assert(type(combyne) == "table")
   end)
 
-  -- TODO 
   it "exports a version property" (function()
-    assert(type(combyne().VERSION) == "string")
+    assert(type(combyne.VERSION) == "string")
   end)
 
   it "is a valid constructor" (function()
-
   end)
 
-  it "requires the tempalte argument to be a string" (function()
+  it "requires the template argument to be a string" (function()
 
   end)
 
